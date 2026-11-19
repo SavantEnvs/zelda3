@@ -1,0 +1,11 @@
+project: savantenvs/zelda3
+target: fuzz-msu
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz-msu/testsuite
+
+cmds:
+  - cmd: /mayhem/mayhem/build/fuzz_msu
+    libfuzzer: true
+    timeout: 5

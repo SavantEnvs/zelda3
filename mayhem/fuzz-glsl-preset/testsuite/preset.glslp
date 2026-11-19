@@ -1,0 +1,7 @@
+shaders = 1
+shader0 = s.glsl
+// comment
+/* block */
+#version 300 es
+float_framebuffer0 = true
+alias0 = x

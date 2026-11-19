@@ -1,0 +1,13 @@
+shaders = 2
+shader0 = pass0.glsl
+scale_type0 = source
+scale0 = 2.0
+filter_linear0 = true
+shader1 = pass1.glsl
+scale_type1 = viewport
+wrap_mode1 = repeat
+textures = "lut"
+lut = lut.png
+lut_linear = true
+parameters = "STRENGTH;GAMMA"
+STRENGTH = 0.25
